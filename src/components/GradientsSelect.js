@@ -8,6 +8,7 @@ const GradientsSelect = () => {
         <div className="input-group mb-3">
             <label className="input-group-text mb-4" for="select">Filter par tag</label>
             <select className="form-control mb-4">
+                <option>Tous</option>
             {uniqueTags.map(color => <option>{color}</option>)}
         </select>
         </div>
