@@ -1,5 +1,3 @@
-import React from "react"
-
 const GradientTags = ({ tags, valueSelect, setValueSelect }) => {
 
   const handleClick = (e) => {

@@ -88,7 +88,7 @@ const Icon = () => {
 
         <button
           type="button"
-          className="btn btn-outline-light"
+          className="btn btn-outline-light mx-1"
           aria-label="Changer le fond"
           onClick={handleLeftClick}
         >
@@ -97,7 +97,7 @@ const Icon = () => {
         </button>
         <button
           type="button"
-          className="btn btn-outline-light"
+          className="btn btn-outline-light mx-1"
           aria-label="Changer le fond"
           onClick={handleReloadClick}
         >
@@ -105,7 +105,7 @@ const Icon = () => {
         </button>
         <button
           type="button"
-          className="btn btn-outline-light"
+          className="btn btn-outline-light mx-1"
           aria-label="Changer le fond"
           onClick={handleRightClick}
         >
